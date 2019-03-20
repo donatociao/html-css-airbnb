@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.container_1 {
+  background-image: url('img/uno.jpg');
+}
+
+.container_2 {
+  background-image: url('img/due.jpg');
+}
+
+.container_3 {
+  background-image: url('img/tre.jpg');
+}
+
+.text_container {
+  width: 400px;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 40px;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
