@@ -36,3 +36,14 @@
   background-color: #ffffff;
   opacity: 0.6;
 }
+
+.opacity {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.container:hover .opacity {
+  opacity: 0;
+}
